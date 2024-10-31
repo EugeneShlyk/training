@@ -1,0 +1,41 @@
+.promises {
+  width: 400px;
+  min-height: 300px;
+  display: flex;
+  margin: 80px auto 40px;
+  justify-content: space-between;
+}
+
+.promises__box {
+  width: 100px;
+  min-height: 100px;
+  cursor: pointer;
+}
+
+.promises__box:hover {
+  opacity: 0.5;
+}
+
+.promises__box:active {
+  opacity: 0.3;
+}
+
+.promises__box--green {
+  background-color: green;
+}
+
+.promises__box--red {
+  background-color: red;
+}
+
+.promises__box--yellow {
+  background-color: yellow;
+}
+
+.output {
+  width: 400px;
+  min-height: 200px;
+  margin: 0 auto 40px;
+  background-color: gray;
+}
+
